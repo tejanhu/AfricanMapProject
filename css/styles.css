@@ -1,0 +1,80 @@
+.tooltip {
+    position: absolute;
+    z-index: 9999;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  path {
+      fill: #fff;
+      stroke: #ccc;
+      stroke-width: 1px;
+  }
+
+  .container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  body{
+    margin:0;
+  padding:0;
+  width: 100%;
+  background-image: url("../src/camo.png");
+  background-size: cover;
+  }
+/* 
+  main{
+    background-image: url("../src/camo.png");
+  background-size: cover;
+  } */
+
+
+  h1{
+      text-align:center;
+      text-transform: uppercase;
+      color: #fff;
+  }
+
+  section{
+    display: flex;
+    margin-top: 1.5em;
+    background-color: #fff;
+  }
+
+  .flag{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .slides{
+    background-color: black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 35em;
+    height: 28em;
+    justify-items: center;
+  }
+
+  .slides h2{
+    color: #fff;
+    text-align: center;
+  }
+
+
+
+
+
+  /* .content.flag, .content h2, .content p{
+    display: flex;
+    flex-direction: column;
+  } */
+  
+     
+
